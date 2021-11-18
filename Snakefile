@@ -12,4 +12,4 @@ rule test:
 	output:
 		"datas/{name}.csv"
 	notebook:
-		"parsers/hpo.ipynb"
+		"parsers/{wildcards.name}.ipynb"

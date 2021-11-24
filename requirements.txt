@@ -1,3 +1,4 @@
 pandas
 jupyter
 snakemake
+missingno

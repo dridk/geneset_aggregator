@@ -7,6 +7,7 @@ if not os.path.exists('datas'):
     os.makedirs('datas')
 
 
+
 rule parse_file:
 	input:
 		"parsers/{name}.ipynb"
